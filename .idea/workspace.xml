@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c70d764f-566a-4f82-9002-e74fa8b3edd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/validation_example.iml" afterPath="$PROJECT_DIR$/.idea/validation_example.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="validation_example.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c70d764f-566a-4f82-9002-e74fa8b3edd5" time="1381504429614" ignored="false" />
+    <file path="/Dummy.txt" changelist="c70d764f-566a-4f82-9002-e74fa8b3edd5" time="1381504442647" ignored="false" />
     <file path="/Gemfile" changelist="c70d764f-566a-4f82-9002-e74fa8b3edd5" time="1381499780499" ignored="false" />
     <file path="/development.rb" changelist="c70d764f-566a-4f82-9002-e74fa8b3edd5" time="1381502062010" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -404,6 +403,11 @@
       <created>1381499648422</created>
       <updated>1381499648422</updated>
     </task>
+    <task id="LOCAL-00001" summary="rake gem added">
+      <created>1381504498814</created>
+      <updated>1381504498814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
