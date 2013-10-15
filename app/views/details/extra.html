@@ -1,0 +1,153 @@
+<html>
+<script>
+
+    function validation()
+    {
+//first name
+        var a = document.form.firstName.value;
+        if(a=="")
+        {
+            alert("Please Enter Your First Name");
+            document.form.firstName.focus();
+            return false;
+        }
+        if(!isNaN(a))
+        {
+            alert("Please Enter Only Characters");
+            document.form.firstName.select();
+            return false;
+        }
+        if ((a.length < 5) || (a.length > 15))
+        {
+            alert("Your Character must be 5 to 15 Character");
+            document.form.firstName.select();
+            return false;
+        }
+
+//last name
+
+        var a = document.form.lastName.value;
+        if(a == "")
+        {
+            alert("Please Enter Your Last Name");
+            document.form.lastName.focus();
+            return false;
+        }
+        if(!isNaN(a))
+        {
+            alert("Please Enter Only Characters");
+            document.form.lastName.select();
+            return false;
+        }
+//gender validation
+
+        if(document.form.gender.value == "-1")
+        {
+            alert( "Please provide your Gender!" );
+            return false;
+        }
+//address
+        var c = document.form.address.value;
+        if(c == "")
+        {
+            alert("Please Enter Your Address");
+            document.form.lastName.focus();
+            return false;
+        }
+//cell
+        var d = document.form.cell.value;
+
+        if(d == "")
+        {
+            alert("Please Enter Your cell num");
+            document.form.lastName.focus();
+            return false;
+        }
+        if(isNaN(d))
+        {
+            alert("Please Enter numbers not characters");
+            document.form.lastName.select();
+            return false;
+        }
+        if (d.length < 10)
+        {
+            alert("Plz enter correct cell number");
+            document.form.firstName.select();
+            return false;
+        }
+//country
+        if(document.form.country.value == "-1")
+        {
+            alert( "Please select your Country!" );
+            return false;
+        }
+    }
+
+</script>
+<head>
+
+</head>
+<body>
+
+<form name="form" method="post" onsubmit="return validation()">
+
+  <table width="100%" height="100%" bgcolor="#E0F8F7" align="center">
+
+    <tr>
+      <td colspan=3 ><font size=3 color=red><right><b>USER ADDITIONAL INFORMATION FORM</b></right>
+    </tr>
+
+    <tr>
+      <td width="30%">First Name:<br/></td>
+      <td><input type="text" size=25 maxlength=20 name="firstName"></td>
+    </tr>
+    <tr>
+      <td width="30%">Last Name:<br/></td>
+      <td><input type="text" size=25 maxlength=20 name="lastName"></td>
+    </tr>
+
+    <tr>
+      <td width="30" valign="middle">Gender:</td>
+      <td><select name="gender">
+        <option value="-1" selected>---Select---</option>
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+      </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="30%">Adress:<br/></td>
+      <td><textarea rows=3 colos=30 name="address"></textarea></td>
+    </tr>
+
+    <tr>
+      <td width="30%">Cell no:<br/></td>
+      <td><input type="text" size=25 maxlength=10 name="cell"></td>
+    </tr>
+
+    <tr>
+      <td width="30" valign="middle">Select Country :</td>
+      <td><select name="country">
+        <option value="-1"selected>---Select---</option>
+        <option value="1">India</option>
+        <option value="2">Country</option>
+        <option value="3">Country</option>
+        <option value="4">Country</option>
+        <option value="5">Country</option>
+        <option value="6">Country</option>
+      </select></td>
+    </tr>
+
+    <tr>
+      <td ><input type="Reset">
+      <td ><input type="submit" value="Submit">
+    </tr>
+
+  </table>
+</form>
+
+
+</body>
+
+</html>
