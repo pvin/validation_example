@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  firstName: MyText
+  lastName: MyText
+  gender: MyText
+  address: MyText
+  cell: MyText
+  country: MyText
+
+two:
+  firstName: MyText
+  lastName: MyText
+  gender: MyText
+  address: MyText
+  cell: MyText
+  country: MyText
