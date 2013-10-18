@@ -1,6 +1,7 @@
 class CreateDetails < ActiveRecord::Migration
   def change
     create_table :details do |t|
+
       t.text :firstName
       t.text :lastName
       t.text :gender

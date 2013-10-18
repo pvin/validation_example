@@ -50,6 +50,7 @@ class DetailsController < ApplicationController
     ques.address = @address
     ques.cell = @cell
     ques.country = @country
+    #ques.user_id = "User_id"
 
     if ques.save
        render 'save'

@@ -2,6 +2,9 @@ ValidationExample::Application.routes.draw do
   devise_for :users
   match 'details/extra' => 'details#extra'
   match 'details/create' => 'details#create'
+  root :to =>'details#extra'
+
+
 
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
